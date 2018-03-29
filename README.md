@@ -20,13 +20,17 @@ app to listen on a specific port.
 How to run:
 
 Step-1: clone the application from github
+
 git clone https://github.com/rahiakela/node-rest-api-jwt-security-application
 
 Step-2: install the all dependency
+
 cd node-rest-api-jwt-security-application
+
 npm install
 
 Step-3: run the application
+
 node server.js
 
 Full tutorial can be found at:
