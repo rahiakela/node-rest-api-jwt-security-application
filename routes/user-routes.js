@@ -1,8 +1,8 @@
-var express = require("express");
+let express = require("express");
 let bodyParser = require("body-parser");
-var router = express.Router();
+let router = express.Router();
 
-var userController = require("../controllers/UserController");
+let userController = require("../controllers/UserController");
 
 router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());

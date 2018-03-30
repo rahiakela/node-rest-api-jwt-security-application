@@ -34,4 +34,4 @@ Step-3: run the application
 node server.js
 
 Full tutorial can be found at:
-https://www.tecknocracy.com/#/blog/5aa52fbf64b924311e587562
+https://www.tecknocracy.com/#/blog/5abdc75dbf89383efe6a6d9a

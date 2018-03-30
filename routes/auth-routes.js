@@ -9,7 +9,7 @@ router.use(bodyParser.urlencoded({ extended: true }));
 router.use(bodyParser.json());
 
 router.post("/register", authController.register);
-router.get("/me", VerifyToken, authController.me);
+router.get("/me", VerifyToken, authController.allowMe);
 router.post("/login", authController.login);
 router.get("/logout", authController.logout);
 
